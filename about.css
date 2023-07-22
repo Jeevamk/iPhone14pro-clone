@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.about{
+    margin-top: 61px;
+    
+}
+#us{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:white;
+    font-size: 40px;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+}
+#aboutfooter{
+    color: white;
+}
+#aboutftrcontent{
+    color: white;
+}
+#abt-container{
+    border-bottom: 1px solid white;
+}

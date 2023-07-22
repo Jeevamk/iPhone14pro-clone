@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#imghero{
+    border: 1px solid white;
+    width: 100vw;
+    max-width: auto;
+    height: 500px;
+    overflow: hidden;
+}
+.sec1{
+  background-image: url("/images/hero.jpg"); 
+  height: 600px;
+  object-fit: cover;
+  object-position: bottom;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+}
+#text1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+
+}
+#text2{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    font-weight: bold;
+}
+#text3{
+    font-size: 22px;
+   color: blue;
+   cursor: pointer;
+}
+#text3 i{
+    font-size: 17px;
+}
+#text3 a{
+    text-decoration: none;   
+}
+#text3 span{
+    padding-left: 10px;
+}
+
+/* section2 starts */
+.sec2{
+    background-image: url("/images/phone-imgs.jpg"); 
+    height: 570px;
+    object-fit: cover;
+    object-position: bottom;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+#text4{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+
+}
+#text5{
+    font-size: 30px;
+    font-family: serif;
+    color: black;
+    font-weight: bold;  
+}
+/* section2 end */
+/* section3 starts */
+.sec3{
+    background-image: url("/images/hero_swiped1.jpg"); 
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+#text6{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 280px;
+
+}
+#text7{
+    font-size: 150px;
+    font-family: serif;
+    color: yellow;
+    font-weight: bold; 
+    margin-top: -70px; 
+}
+#text8{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -70px; 
+}
+#text9{
+    color: white;
+    font-size: 18px;
+}
+#text9 span{
+    padding-left: 15px;
+}
+#swiped{
+    margin-top: 190px;
+}
+#play{
+    font-size: 9px;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    margin-top: -10px;
+   
+}
+/* section3 end */
+
+/* section4 starts */
+.card-title{
+    color: black;
+    /* font-size: 2.633vw; */
+    font-size: 40px;
+    text-align: center;
+}
+.card-text{
+    color: black;
+    /* font-size: 1.646vw; */
+    font-size: 25px;
+    text-align: center;
+    margin-top: -10px;
+}
+#card-text1{
+    font-size: 20px;
+    /* font-size: 1.317vw; */
+   color: blue;
+   cursor: pointer;
+   /* margin-top: -10px; */
+}
+#card-text1 i{
+    font-size: 17px;
+}
+#card-text1 a{
+    text-decoration: none;   
+}
+#card-text1 span{
+    padding-left: 10px;
+   
+}
+#card-text1 i{
+    font-size: 20px;
+    /* font-size: 1.317vw;; */
+}
+#imgcard{
+    width: 100%;
+    height: auto;
+    padding-top: 23px;
+}
+#video{
+    padding-top: 120px;
+}
+
+/* section5 starts */
+.carousel-item{
+    height: 100vh;
+    margin-top: 20px;
+    opacity: .5;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+    height: auto;
+}
+
+/* footer section starts */
+.footertext{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+/* section7 starts */
+.footerlist1 li{
+    list-style: none;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+#fthead{
+    font-size: 17px;
+    color: black;
+}
+.footerlist1 li:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+@media screen and (max-width:1025px) {
+    #video{
+        padding-top: 40px;
+    }
+    #imgcard{
+        padding-top: 10px;
+    }   
+}
+
+@media  screen and (max-width:1024px) {
+    .sec1{
+        background-image: url(/images/hero3.jpg); 
+        height: 550px;
+      }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .card-title{
+        font-size: 30px;
+        
+    }
+    .card-text{
+        font-size: 20px;
+       
+    }
+    #card-text1{
+        font-size: 15px;
+    }
+    #card-text1 i{
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media screen and (min-width:320px) and (max-width:820px) {
+    #text7{
+        font-size: 60px;
+        margin-top: -30px;
+    }
+    #text8{
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .sec1{
+        background-image: url(/images/hero1.jpg); 
+        height: 500px;
+      }
+    #text1{
+        font-size: 40px;
+    }
+    #text2{
+        font-size: 25px;
+    }
+    #text3{
+        font-size: 17px;
+    }
+    .sec2{
+        background-image: url(/images/phone-imgs1.jpg);
+        height: 500px;
+    }
+    #text4{
+        font-size: 40px;
+    }
+    #text5{
+        font-size: 25px;
+    }
+    #text3{
+        font-size: 17px;
+    }
+    #text7{
+        font-size: 60px;
+        margin-top: -30px;
+    }
+    #text8{
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    #text6{
+        font-size: 18px;
+    }
+    #text7{
+        font-size: 70px;
+        margin-top: -30px;
+    }
+    #text8{
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    .sec3{
+        background-image: url(/images/hero_swiped5.jpg);
+    }
+    
+}
+
+@media screen and (max-width:300px) {
+    #text1{
+        font-size: 20px;
+    }
+    #text2{
+        font-size: 15px;
+    }
+    #text3{
+        font-size: 10px;
+    }
+    #text7{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    #ftrcontent{
+        text-align: center;
+    }
+}

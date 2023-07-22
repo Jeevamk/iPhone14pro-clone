@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.contact{
+    margin-top: 60px;
+   
+    /* background-image: url('images/a1.jpg'); */
+    /* background-attachment: fixed; */
+}
+#contact_firstcol{
+    background-image: url(/images/a2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+    height: auto;
+}
+#message{
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+}
+#message1{
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+}
+#message2{
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+}
+#message3{
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+}
