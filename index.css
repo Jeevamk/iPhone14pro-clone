@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 .sec1{
-  background-image: url("/images/hero.jpg"); 
+  background-image: url("./images/hero.jpg"); 
   height: 600px;
   object-fit: cover;
   object-position: bottom;
@@ -51,7 +51,7 @@
 
 /* section2 starts */
 .sec2{
-    background-image: url("/images/phone-imgs.jpg"); 
+    background-image: url("./images/phone-imgs.jpg"); 
     height: 570px;
     object-fit: cover;
     object-position: bottom;
@@ -75,7 +75,7 @@
 /* section2 end */
 /* section3 starts */
 .sec3{
-    background-image: url("/images/hero_swiped1.jpg"); 
+    background-image: url("./images/hero_swiped1.jpg"); 
     height: 550px;
     object-fit: cover;
     object-position: bottom;
@@ -215,7 +215,7 @@
 
 @media  screen and (max-width:1024px) {
     .sec1{
-        background-image: url(/images/hero3.jpg); 
+        background-image: url('./images/hero3.jpg'); 
         height: 550px;
       }
 }
@@ -254,7 +254,7 @@
 
 @media screen and (max-width:768px) {
     .sec1{
-        background-image: url(/images/hero1.jpg); 
+        background-image: url('./images/hero1.jpg'); 
         height: 500px;
       }
     #text1{
@@ -267,7 +267,7 @@
         font-size: 17px;
     }
     .sec2{
-        background-image: url(/images/phone-imgs1.jpg);
+        background-image: url('./images/phone-imgs1.jpg');
         height: 500px;
     }
     #text4{
@@ -303,7 +303,7 @@
         margin-top: -30px;
     }
     .sec3{
-        background-image: url(/images/hero_swiped5.jpg);
+        background-image: url('./images/hero_swiped5.jpg');
     }
     
 }
