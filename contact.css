@@ -11,14 +11,14 @@
     /* background-image: url('images/a1.jpg'); */
     /* background-attachment: fixed; */
 }
-#contact_firstcol{
+/* #contact_firstcol{
     background-image: url(/images/a2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100;
     height: auto;
-}
+} */
 #message{
     color: red;
     font-family: cursive;

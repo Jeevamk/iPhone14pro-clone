@@ -1,4 +1,3 @@
-
 function validateform() {
     var correct_way=/^[A-Z a-z]+$/;
     var a =document.getElementById("fname").value;
